@@ -326,9 +326,9 @@ nav {
 .education-item {
   background: linear-gradient(135deg, hwb(223 95% 2%), hsl(216, 71%, 99%));
   padding: 2.5rem;
-  border-radius: 20px;
+  border-radius: 30px;
   color: #121111;
-  height: 100%;
+  height: 65%;
 }
 
 .education-item h3 {
@@ -481,3 +481,4 @@ body.dark .interest-tag {
   background: #020617;
   border-color: #334155;
 }
+
