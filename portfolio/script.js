@@ -32,3 +32,25 @@ document.querySelector(".contact-form").addEventListener("submit", (e) => {
   e.preventDefault();
   alert("Thank you! Your message has been sent successfully.");
 });
+// ================= NIGHT MODE =================
+const themeToggle = document.getElementById("theme-toggle");
+const themeIcon = themeToggle.querySelector("i");
+
+// Load saved theme
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+  themeIcon.classList.replace("fa-moon", "fa-sun");
+}
+
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    themeIcon.classList.replace("fa-moon", "fa-sun");
+    localStorage.setItem("theme", "dark");
+  } else {
+    themeIcon.classList.replace("fa-sun", "fa-moon");
+    localStorage.setItem("theme", "light");
+  }
+});
+
