@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moisturex Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -34,7 +28,7 @@
       </div>
     </header>
 
-    <section id="home" class="hero">
+    <section id="home" class="Main-Section">
       <div class="container">
         <div class="profile-frame">
           <img
@@ -62,10 +56,14 @@
             I am currently studying
             <strong
               >Information Science and Management at Haramaya University</strong
-            >, where I focus on how information is <strong>created</strong>,
-            <strong>organized</strong>, <strong>stored</strong>, and
-            <strong>shared</strong>. I prefer clear structure, practical
-            examples, and continuous improvement.
+            >, where I focus on understanding how information is
+            <strong>created</strong>, <strong>organized</strong>,
+            <strong>stored</strong>, and <strong>shared</strong> using
+            technology. My academic interests include
+            <strong
+              >databases, knowledge management, information systems, and basic
+              networking</strong
+            >.
           </p>
         </div>
         <div class="about-grid">
@@ -73,7 +71,7 @@
             <i class="fas fa-graduation-cap about-icon"></i>
             <h3>Education</h3>
             <p>
-              <strong>BSc in Information Science</strong><br />@Haramaya
+              BSc in Information Science and Management<br />@Haramaya
               University<br /><span class="date-range">2022 - 2027</span>
             </p>
           </div>
@@ -81,16 +79,17 @@
             <i class="fas fa-bullseye about-icon"></i>
             <h3>Goal</h3>
             <p>
-              To bridge the gap between network infrastructures and user
-              experiences with a problem-solving mindset.
+              My goal is to develop practical IT and information management
+              skills and use them to solve real-world problems through
+              technology.
             </p>
           </div>
           <div class="about-card">
             <i class="fas fa-cogs about-icon"></i>
             <h3>Focus</h3>
             <div class="focus-tags">
-              <span>Network Management</span><span>Database Systems</span
-              ><span>Security</span><span>IT Infrastructure</span>
+              <span>Networking</span><span>Database</span><span>Security</span>
+              <span>KM</span><span>IR</span><span>Digital library</span>
             </div>
           </div>
         </div>
@@ -101,15 +100,11 @@
       <div class="container">
         <div class="section-header">
           <h2>Projects</h2>
-          <p class="section-subtitle">Recent Work & Future Projects</p>
         </div>
         <div class="projects-grid">
           <div class="project-card">
             <h3>
-              JavaScript Calculator
-              <a href="https://github.com/moisture7293" target="_blank"
-                ><i class="fab fa-github"></i
-              ></a>
+              JS Calculator <a href="#"><i class="fab fa-github"></i></a>
             </h3>
             <p>Interactive mathematical calculator with clean UI.</p>
             <div class="tech-stack">
@@ -122,41 +117,8 @@
             </h3>
             <p>Secure LAN environment with VLAN segmentation.</p>
             <div class="tech-stack">
-              <span>Networking</span><span>Security</span><span>Cisco</span>
+              <span>Cisco</span><span>Packet Tracer</span>
             </div>
-          </div>
-          <div class="project-card">
-            <h3>
-              Network Analysis <a href="#"><i class="fab fa-github"></i></a>
-            </h3>
-            <p>Traffic monitoring using Wireshark protocols.</p>
-            <div class="tech-stack">
-              <span>Wireshark</span><span>Packet Analysis</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills">
-      <div class="container">
-        <div class="section-header"><h2>Skills</h2></div>
-        <div class="skills-container">
-          <div class="skills-column">
-            <h3>Technical</h3>
-            <ul class="skills-list">
-              <li><span class="skill-name">HTML5 / CSS3</span></li>
-              <li><span class="skill-name">JavaScript Basics</span></li>
-              <li><span class="skill-name">Networking</span></li>
-            </ul>
-          </div>
-          <div class="skills-column">
-            <h3>Professional</h3>
-            <ul class="skills-list">
-              <li><span class="skill-name">Problem Solving</span></li>
-              <li><span class="skill-name">Collaboration</span></li>
-              <li><span class="skill-name">Time Management</span></li>
-            </ul>
           </div>
         </div>
       </div>
@@ -164,36 +126,42 @@
 
     <section id="contact">
       <div class="container">
-        <div class="section-header"><h2>Contact Me</h2></div>
-        <div class="contact-grid">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="contact-wrapper">
           <form class="contact-form">
-            <input placeholder="Your Name" required />
+            <h3>Send a Message</h3>
+            <input type="text" placeholder="Your Name" required />
             <input type="email" placeholder="Email Address" required />
-            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <textarea placeholder="Your Message" rows="6" required></textarea>
             <button type="submit" class="btn-primary">Send Message</button>
           </form>
+
           <div class="info-card">
-            <h3>Quick Info</h3>
-            <p><strong>Location:</strong> <br>Ethiopia, Haramaya University </br></p>
-            <p><strong>Phone:</strong><br> +251 972 938 910 </br></p>
-            <p><strong>Email:</strong><br> bilalhassen7293@gmail.com </br></p>
+            <h3>Quick Information</h3>
+            <div class="info-item">
+              <strong><i class="fas fa-map-marker-alt"></i> Location</strong>
+              <p>Ethiopia, Haramaya University</p>
+            </div>
+            <div class="info-item">
+              <strong><i class="fas fa-phone"></i> Phone</strong>
+              <p>+251 972 938 910</p>
+            </div>
+            <div class="info-item">
+              <strong><i class="fas fa-envelope"></i> Email</strong>
+              <p>bilalhassen7293@gmail.com</p>
+            </div>
             <div class="social-icons">
               <a
                 href="https://www.instagram.com/moisture7293"
-                target="_blank"
                 class="social-icon"
                 ><i class="fab fa-instagram"></i
               ></a>
-              <a
-                href="https://github.com/moisture7293"
-                target="_blank"
-                class="social-icon"
+              <a href="https://github.com/moisture7293" class="social-icon"
                 ><i class="fab fa-github"></i
               ></a>
-              <a
-                href="https://t.me/Moisturex"
-                target="_blank"
-                class="social-icon"
+              <a href="https://t.me/Moisturex" class="social-icon"
                 ><i class="fab fa-telegram-plane"></i
               ></a>
             </div>
@@ -204,10 +172,11 @@
 
     <footer>
       <div class="container">
-        <div class="footer-logo">Portfolio</div>
-        <p>&copy; Designed & developed by Moisturex.</p>
+        <i><strong>Portfolio</strong></i>
+        <p>&copy; 2026 | Designed & Developed by Moisturex</p>
       </div>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
