@@ -9,7 +9,7 @@
   --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Dark Mode Color Overrides */
+/* Dark Mode */
 body.dark {
   --d: #f8f9fa;
   --l: #121212;
@@ -24,7 +24,7 @@ body.dark {
 }
 
 html {
-  scroll-behavior: smooth; /* Native smooth scroll fallback */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -178,7 +178,7 @@ section {
   display: inline-block;
 }
 
-/* Contact Wrapper */
+/* Contact */
 .contact-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -259,7 +259,6 @@ footer {
   opacity: 0.9;
 }
 
-/* Responsive */
 @media (max-width: 850px) {
   .contact-wrapper {
     grid-template-columns: 1fr;
@@ -271,3 +270,4 @@ footer {
     padding: 60px 0;
   }
 }
+
