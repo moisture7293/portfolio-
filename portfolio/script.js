@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     icon.className = "fas fa-sun";
   }
 
-  // 2. Smooth Scroll (Native behavior works for most, but this adds the header offset)
+  // 2. Smooth Scroll
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.onclick = (e) => {
       e.preventDefault();
@@ -34,3 +34,4 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   };
 });
+
